@@ -1,0 +1,1 @@
+# akira103150146.github.io
