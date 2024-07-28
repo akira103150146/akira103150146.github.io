@@ -1,19 +1,17 @@
 import { Outlet, Link } from "react-router-dom";
+import MyLink from "./components/MyLink";
 
 const Layout = () => {
+  const links: Map<string, string> = new Map([
+    ['/', 'Home'],
+    ['/blogs', 'Blogs'],
+    ['contact', 'Contact']
+  ]);
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/blogs">Blogs</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
+      <nav className="bg-gray-800 " >
+        <ul className="inline-grid grid-cols-3 gap-4">
+          <MyLink url='/' name='Home'></MyLink>
         </ul>
       </nav>
 

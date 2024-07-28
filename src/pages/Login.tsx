@@ -13,7 +13,7 @@ function Login() {
     return <div>
         <h2>Login</h2>
         <form onSubmit={handleSubmit}>
-            <label>Account:</label>
+            <label className="text-3xl font-bold underline">Account:</label>
             <input type="text" value={account} onChange={(e) => setAccount(e.target.value)}></input>
             <label>Password:</label>
             <input type="password" value={password} onChange={(e) => setPassword(e.target.value)}></input>
