@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import MyToggle from "../components/Toggle";
+import MyToggle from "../components/MyToggle";
 import because from "../markdowns/各種因為的用法/because.md";
 import becauseOf from "../markdowns/各種因為的用法/because-of.md";
 import dueTo from "../markdowns/各種因為的用法/due-to.md";
