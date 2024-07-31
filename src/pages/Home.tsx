@@ -4,17 +4,18 @@ import { useState } from 'react';
 
 function Home() {
     const [inputText, setInputText] = useState('');
-    const [randomResult, setRandomResult] = useState('');
+    const [randomResult, setRandomResult] = useState('猜猜是甚麼');
     const getRandomLine = (text: string) => {
         const lines = text.split("\n");
-        if (lines.length == 0)
-            return "";
+
+        if (text == "")
+            return "猜猜是甚麼";
 
         const randomIndex = Math.floor(Math.random() * lines.length);
         return lines[randomIndex];
     }
 
-    return <div className="w-full max-w-md px-4">
+    return <div className="w-full max-w-md px-4 flex flex-col">
         <Field>
             <Label className="text-xl font-medium text-white">輸入題目</Label>
             <Description className="text-sm/6 text-white/50">題目會用換行分割開來 無論是否有超出單行寬度</Description>
@@ -28,8 +29,8 @@ function Home() {
         "
             />
         </Field>
-        <span className='text-white'>{randomResult}</span>
-        <Button onClick={() => setRandomResult(getRandomLine(inputText))} className="text-white">看看是甚麼</Button>
+        <span className='text-white text-center'>{randomResult}</span>
+        <Button onClick={() => setRandomResult( getRandomLine(inputText))} className="text-white">看看是甚麼</Button>
     </div>
 }
 
