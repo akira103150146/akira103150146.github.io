@@ -10,6 +10,8 @@ import as from "../markdowns/各種因為的用法/as.md";
 import owingTo from "../markdowns/各種因為的用法/owing-to.md";
 import asAResultOf from "../markdowns/各種因為的用法/as-a-result-of.md";
 import onAccountOf from "../markdowns/各種因為的用法/on-account-of.md";
+import ArticleCover from "../components/ArticleCover";
+import img from "../imgs/Celine-NEW-2.png";
 
 async function fetchBecauseUsage() {
     const data: string[] = [];
@@ -33,24 +35,27 @@ function English() {
     }, [])
 
     return (
-        <MyToggle
-            title="各種因為的用法"
-            defaultOpen={false}
-            hidden={
-                <div>
-                    {
-                        becauseUsages.map((markdown, index) => (
-                            <MyToggle  key={index} title={"用法" + (index + 1)} defaultOpen={false} hidden={
-                                <Markdown
-                                    className="markdown"
-                                    remarkPlugins={[remarkGfm]}>
-                                    {markdown}
-                                </Markdown>
-                            } />
-                        ))
-                    }
-                </div>
-            } />
+        <div className="flex flex-wrap">
+            <ArticleCover url={img} title="各種因為的用法"></ArticleCover>
+        </div>
+        // <MyToggle
+        //     title="各種因為的用法"
+        //     defaultOpen={false}
+        //     hidden={
+        //         <div>
+        //             {
+        //                 becauseUsages.map((markdown, index) => (
+        //                     <MyToggle  key={index} title={"用法" + (index + 1)} defaultOpen={false} hidden={
+        //                         <Markdown
+        //                             className="markdown"
+        //                             remarkPlugins={[remarkGfm]}>
+        //                             {markdown}
+        //                         </Markdown>
+        //                     } />
+        //                 ))
+        //             }
+        //         </div>
+        //     } />
     )
 }
 
