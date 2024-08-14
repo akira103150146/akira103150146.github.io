@@ -21,7 +21,7 @@ export default function Article() {
     return (
         <div>
             <Markdown
-                className="markdown text-white"
+                className="markdown text-white break-normal text-xl px-4"
                 remarkPlugins={[remarkGfm]}>
                 {markdown}
             </Markdown>
