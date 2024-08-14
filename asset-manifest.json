@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.ea0696a2.css",
-    "main.js": "/static/js/main.b54c7110.js",
+    "main.js": "/static/js/main.813fac59.js",
     "static/js/361.601a223e.chunk.js": "/static/js/361.601a223e.chunk.js",
     "static/js/687.24e523f1.chunk.js": "/static/js/687.24e523f1.chunk.js",
     "static/js/453.c026f3b0.chunk.js": "/static/js/453.c026f3b0.chunk.js",
     "static/media/Celine-NEW-2.png": "/static/media/Celine-NEW-2.be22638c326f516fcf93.png",
+    "static/media/banner.png": "/static/media/banner.d9149c6c32e9931e1063.png",
     "static/media/basic_five_sentence.md": "/static/media/basic_five_sentence.86ec3c73029b3132fe22.md",
     "static/media/because_usages.md": "/static/media/because_usages.45fabf669ea1e2e5a7d0.md",
     "index.html": "/index.html",
     "main.ea0696a2.css.map": "/static/css/main.ea0696a2.css.map",
-    "main.b54c7110.js.map": "/static/js/main.b54c7110.js.map",
+    "main.813fac59.js.map": "/static/js/main.813fac59.js.map",
     "453.c026f3b0.chunk.js.map": "/static/js/453.c026f3b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea0696a2.css",
-    "static/js/main.b54c7110.js"
+    "static/js/main.813fac59.js"
   ]
 }
