@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.24569891.css",
-    "main.js": "/static/js/main.b9bbf8db.js",
-    "static/js/488.b4c12328.chunk.js": "/static/js/488.b4c12328.chunk.js",
-    "static/js/687.657383b0.chunk.js": "/static/js/687.657383b0.chunk.js",
+    "main.css": "/static/css/main.ea0696a2.css",
+    "main.js": "/static/js/main.b54c7110.js",
+    "static/js/361.601a223e.chunk.js": "/static/js/361.601a223e.chunk.js",
+    "static/js/687.24e523f1.chunk.js": "/static/js/687.24e523f1.chunk.js",
     "static/js/453.c026f3b0.chunk.js": "/static/js/453.c026f3b0.chunk.js",
     "static/media/Celine-NEW-2.png": "/static/media/Celine-NEW-2.be22638c326f516fcf93.png",
-    "static/media/because_usages.md": "/static/media/because_usages.36c577552ab2b6acc99a.md",
+    "static/media/basic_five_sentence.md": "/static/media/basic_five_sentence.86ec3c73029b3132fe22.md",
+    "static/media/because_usages.md": "/static/media/because_usages.45fabf669ea1e2e5a7d0.md",
     "index.html": "/index.html",
-    "static/media/abc.md": "/static/media/abc.216fd1eac65b991129b4.md",
-    "main.24569891.css.map": "/static/css/main.24569891.css.map",
-    "main.b9bbf8db.js.map": "/static/js/main.b9bbf8db.js.map",
+    "main.ea0696a2.css.map": "/static/css/main.ea0696a2.css.map",
+    "main.b54c7110.js.map": "/static/js/main.b54c7110.js.map",
     "453.c026f3b0.chunk.js.map": "/static/js/453.c026f3b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24569891.css",
-    "static/js/main.b9bbf8db.js"
+    "static/css/main.ea0696a2.css",
+    "static/js/main.b54c7110.js"
   ]
 }

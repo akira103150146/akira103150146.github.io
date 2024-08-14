@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkakira103150146_github_io=self.webpackChunkakira103150146_github_io||[]).push([[361],{361:(e,i,a)=>{e.exports=a.p+"static/media/basic_five_sentence.86ec3c73029b3132fe22.md"}}]);

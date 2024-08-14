@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkakira103150146_github_io=self.webpackChunkakira103150146_github_io||[]).push([[687],{687:(a,e,s)=>{a.exports=s.p+"static/media/because_usages.45fabf669ea1e2e5a7d0.md"}}]);
