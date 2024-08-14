@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import MyLink from "./components/MyLink";
+import banner from "./imgs/banner.png"
 
 const Layout = () => {
   const links: Map<string, string> = new Map([
@@ -10,6 +11,7 @@ const Layout = () => {
   return (
     <>
       <nav className="bg-gray-800 " >
+        <img src={banner}></img>
         <ul className="inline-grid grid-cols-3 gap-4">
           <MyLink url='/' name='首頁'></MyLink>
           <MyLink url='/english-class' name='上英文辣'></MyLink>
