@@ -8,7 +8,7 @@ export interface MyLinkProps {
 
 function MyLink(prop: MyLinkProps) {
     return (
-        <li className="rounded-md bg-gray-900 px-3 py-2 text-lg font-medium text-white">
+        <li className="rounded-md px-3 py-2 text-lg font-medium text-white bg-nav-texture">
             <Link to={prop.url}>{prop.name}</Link>
         </li>
     );
