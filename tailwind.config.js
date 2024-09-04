@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'nav-texture': "url('./imgs/eraserB.png')"
+        'nav-texture': "url('./imgs/eraserB2.png')"
       }
     },
   },
