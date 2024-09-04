@@ -9,7 +9,7 @@ export default function Article() {
     const articleId = useParams().article;
     const [markdown, setMarkdown] = useState<string>();
     useEffect(() => {
-        import("../markdowns/"+ articleId + ".md")
+        import("../markdowns/" + articleId + ".md")
             .then(res => {
                 fetch(res.default)
                     .then(res => res.text())
@@ -19,12 +19,17 @@ export default function Article() {
             .catch(err => console.log(err));
     })
     return (
-        <div>
-            <Markdown
-                className="markdown text-white break-normal text-xl px-4"
-                remarkPlugins={[remarkGfm]}>
-                {markdown}
-            </Markdown>
+        <div className="flex">
+            <div className="flex-1"></div>
+            <div>
+                <Markdown
+                    className="markdown text-black break-normal text-xl px-4"
+                    remarkPlugins={[remarkGfm]}>
+                    {markdown}
+                </Markdown>
+            </div>
+            <div className="flex-1"></div>
+
         </div>
     )
 }

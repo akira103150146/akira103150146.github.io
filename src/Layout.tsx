@@ -3,19 +3,20 @@ import MyLink from "./components/MyLink";
 import banner from "./imgs/Br.png"
 
 const Layout = () => {
-  const links: Map<string, string> = new Map([
-    ['/', '首頁'],
-    ['/english-class', '英文'],
-
-  ]);
   return (
     <>
-      <nav className="bg-white" >
-        <img className="w-full"
+      <nav>
+        <img className="w-full lg:h-80 md:h-48"
           src={banner}></img>
-        <ul className="inline-grid grid-cols-3 gap-4">
-          <MyLink url='/' name='首頁'></MyLink>
-          <MyLink url='/english-class' name='上英文辣'></MyLink>
+        <ul className="w-full flex">
+          <div className="flex-1"></div>
+          <div className="contents">
+            <div className="flex-1  flex flex-row">
+              <MyLink url='/' name='題庫'></MyLink>
+              <MyLink url='/english-class' name='上英文辣'></MyLink>
+            </div>
+          </div>
+          <div className="flex-1"></div>
         </ul>
       </nav>
 
